@@ -8,6 +8,8 @@ interface IInteractable
 }
 public class Interactor : MonoBehaviour
 {
+    
+
     private IInteractable currentInteractible;
 
     private void Update()
