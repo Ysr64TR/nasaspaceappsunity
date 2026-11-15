@@ -236,7 +236,7 @@ GameObject:
   - component: {fileID: 364730728}
   - component: {fileID: 364730727}
   m_Layer: 0
-  m_Name: Water Man
+  m_Name: Water Man (Auggie)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -352,9 +352,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue
   owner: {fileID: 4645289506974609743, guid: 52c3135dc6bdf28488f30b974f65dff6, type: 3}
   sentences:
-  - Hello, Astronaout.
-  - Welcome to the planet Mars.
-  - We have built an outpost here.
+  - Oh, no! A dust blizzard just happened and our power modules don't work now!
+  - I just checked the power, battery consuption has started. But we can't know how
+    long it will last.
+  - We have to limit some of our energy usage to stay alive.
+  - Now, let's go to the farming modules.
 --- !u!114 &364730727
 MonoBehaviour:
   m_ObjectHideFlags: 0
