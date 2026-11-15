@@ -1,11 +1,11 @@
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.InputSystem;
 using System.Collections;
 
 public class DialogueManager : MonoBehaviour
 {
-    InputAction clickAction;
+    public static DialogueManager instance;
+
     public Image speaker;
     public Text text;
     public GameObject textBox;
@@ -14,14 +14,10 @@ public class DialogueManager : MonoBehaviour
     Dialogue currentDialogue;
     public Dialogue exampleDialogue;
 
-    private void Awake()
-    {
-        clickAction = InputSystem.actions.FindAction("Click");
-    }
-
+    private void Awake() { instance = this; }
     private void Start()
     {
-        InitiateDialogue(exampleDialogue);
+        //InitiateDialogue(exampleDialogue);
     }
 
     public void InitiateDialogue(Dialogue dialogue)
