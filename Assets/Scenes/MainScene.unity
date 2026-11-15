@@ -6212,7 +6212,13 @@ EdgeCollider2D:
   - {x: -8.6, y: 2.5}
   - {x: -8.6, y: 4.7}
   - {x: 4.9, y: 4.7}
-  - {x: 4.9, y: 0.47}
+  - {x: 4.904396, y: 0.4969204}
+  - {x: 3.530941, y: 0.46854416}
+  - {x: 3.5139542, y: -0.34107998}
+  - {x: 0.43026638, y: -0.361422}
+  - {x: 0.42238903, y: -1.4582038}
+  - {x: 3.5211263, y: -1.4554738}
+  - {x: 3.5617352, y: 0.4425305}
   - {x: 8.65, y: 0.47}
   - {x: 8.65, y: -4.05}
   - {x: 3.55, y: -4.05}
@@ -6452,7 +6458,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 165119035
   m_SortingLayer: 1
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_MaskInteraction: 0
   m_Sprite: {fileID: 2626077351300287763, guid: 3a173715e82ae5847bb56a9e6df106dd, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
